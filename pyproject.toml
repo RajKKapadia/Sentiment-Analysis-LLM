@@ -1,0 +1,18 @@
+[project]
+name = "sentiment-analysis-llm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.11"
+dependencies = [
+    "datasets>=2.19",
+    "numpy>=1.26",
+    "tiktoken>=0.7",
+    "torch>=2.3",
+    "tqdm>=4.66",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.18",
+]

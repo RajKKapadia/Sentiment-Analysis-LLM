@@ -1,0 +1,5 @@
+torch>=2.3
+datasets>=2.19
+tiktoken>=0.7
+tqdm>=4.66
+numpy>=1.26
