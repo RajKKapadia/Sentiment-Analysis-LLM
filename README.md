@@ -5,6 +5,8 @@ sentiment classification on IMDb movie reviews. It uses GPT-2 BPE tokenization,
 pools the last non-padding token, and predicts `negative` or `positive` with a
 linear classification head.
 
+![IMDb Sentiment Classifier process](assets/process_flow.png)
+
 ## Project Layout
 
 ```text
